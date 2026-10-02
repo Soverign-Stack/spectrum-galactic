@@ -51,7 +51,7 @@ export default function Home() {
               View Planned Coverage
             </Link>
             <a
-              href="https://okb-ventures.vercel.app/contact"
+              href="https://www.okbventures.com/contact"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-secondary"
@@ -219,7 +219,7 @@ export default function Home() {
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4 max-w-4xl mx-auto">
             {[
               { layer: "L6", name: "Spectrum Galactic", desc: "Satellite Backhaul (planned)", active: true },
-              { layer: "L5", name: "VIBE Token", desc: "Economics Layer", href: "https://vibetoken.xyz" },
+              { layer: "L5", name: "VIBE Token", desc: "Economics Layer", href: "https://www.vibe-token.com" },
               { layer: "L4", name: "Pythia AI", desc: "Intelligence Layer", href: "https://pythia-ai.xyz" },
               { layer: "L3", name: "Powerclub Dashboard", desc: "User Interface", href: "https://powerclubglobal.com" },
               { layer: "L2", name: "Omega Hardware", desc: "Privacy Devices", href: "https://omegawireless.xyz" },
@@ -267,7 +267,7 @@ export default function Home() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://okb-ventures.vercel.app/contact"
+              href="https://www.okbventures.com/contact"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary"

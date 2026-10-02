@@ -212,7 +212,7 @@ export default function Partners() {
 
           <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
             <a
-              href="https://okb-ventures.vercel.app"
+              href="https://www.okbventures.com"
               target="_blank"
               rel="noopener noreferrer"
               className="card text-center hover:border-[var(--gold)] transition-colors group"
@@ -292,7 +292,7 @@ export default function Partners() {
           </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://okb-ventures.vercel.app/contact"
+              href="https://www.okbventures.com/contact"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary"

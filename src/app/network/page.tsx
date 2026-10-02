@@ -79,7 +79,7 @@ export default function Network() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://okb-ventures.vercel.app/contact"
+              href="https://www.okbventures.com/contact"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary"
