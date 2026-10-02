@@ -17,9 +17,8 @@ export default function Home() {
 
         <div className="relative z-10 max-w-5xl mx-auto px-4 text-center">
           {/* Status indicator */}
-          <div className="inline-flex items-center gap-2 px-4 py-2 bg-[var(--signal-green)]/10 border border-[var(--signal-green)]/30 rounded-full text-[var(--signal-green)] text-sm mb-8">
-            <span className="status-online" />
-            Constellation Active - 24 Satellites Online
+          <div className="inline-flex items-center gap-2 px-4 py-2 bg-[var(--gold)]/10 border border-[var(--gold)]/30 rounded-full text-[var(--gold)] text-sm mb-8">
+            Early-stage plan - planned constellation
           </div>
 
           {/* Satellite visual */}
@@ -43,13 +42,13 @@ export default function Home() {
           </h1>
 
           <p className="text-xl md:text-2xl text-[var(--text-secondary)] max-w-3xl mx-auto mb-8">
-            LEO satellite connectivity for the Sovereign Stack.
-            Global coverage. Zero censorship. Unstoppable.
+            An early-stage plan for satellite backhaul for the Sovereign Stack.
+            No satellites are in orbit yet.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/coverage" className="btn-primary">
-              View Coverage Map
+              View Planned Coverage
             </Link>
             <a
               href="https://okb-ventures.vercel.app/contact"
@@ -57,7 +56,7 @@ export default function Home() {
               rel="noopener noreferrer"
               className="btn-secondary"
             >
-              Get Connected
+              Contact Us
             </a>
           </div>
         </div>
@@ -76,19 +75,19 @@ export default function Home() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="text-center">
               <div className="text-3xl md:text-4xl font-bold text-gradient-cyan mb-2">24</div>
-              <div className="text-sm text-[var(--text-muted)]">LEO Satellites</div>
+              <div className="text-sm text-[var(--text-muted)]">Design target: satellites</div>
             </div>
             <div className="text-center">
               <div className="text-3xl md:text-4xl font-bold text-gradient-cyan mb-2">550km</div>
-              <div className="text-sm text-[var(--text-muted)]">Orbital Altitude</div>
+              <div className="text-sm text-[var(--text-muted)]">Design target: altitude</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-gradient-cyan mb-2">Global</div>
-              <div className="text-sm text-[var(--text-muted)]">Coverage Area</div>
+              <div className="text-3xl md:text-4xl font-bold text-gradient-cyan mb-2">None yet</div>
+              <div className="text-sm text-[var(--text-muted)]">Current coverage</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-[var(--signal-green)] mb-2">99.9%</div>
-              <div className="text-sm text-[var(--text-muted)]">Uptime SLA</div>
+              <div className="text-3xl md:text-4xl font-bold text-gradient-cyan mb-2">Planned</div>
+              <div className="text-sm text-[var(--text-muted)]">Service level: not defined</div>
             </div>
           </div>
         </div>
@@ -102,8 +101,8 @@ export default function Home() {
               What is <span className="text-gradient-cyan">Spectrum Galactic</span>?
             </h2>
             <p className="text-[var(--text-secondary)] max-w-2xl mx-auto">
-              The final layer of the Sovereign Stack - providing unstoppable connectivity
-              from space to every device on the network.
+              The planned final layer of the Sovereign Stack - satellite backhaul
+              intended to link nodes on the network.
             </p>
           </div>
 
@@ -114,10 +113,10 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-[var(--spectrum-cyan)] mb-2">Global Coverage</h3>
+              <h3 className="text-xl font-semibold text-[var(--spectrum-cyan)] mb-2">Planned Coverage</h3>
               <p className="text-[var(--text-secondary)]">
-                24 LEO satellites providing continuous coverage across all continents.
-                No dead zones, no blackouts.
+                The design target is a constellation of 24 LEO satellites.
+                None are built or in orbit yet.
               </p>
             </div>
 
@@ -127,10 +126,10 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-[var(--spectrum-purple)] mb-2">Censorship Resistant</h3>
+              <h3 className="text-xl font-semibold text-[var(--spectrum-purple)] mb-2">Designed for Resilience</h3>
               <p className="text-[var(--text-secondary)]">
-                Direct satellite links bypass terrestrial infrastructure.
-                Your connection cannot be blocked or throttled.
+                Satellite links would reduce dependence on terrestrial infrastructure.
+                This is a design goal, not a guarantee.
               </p>
             </div>
 
@@ -142,8 +141,8 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-semibold text-[var(--spectrum-pink)] mb-2">Low Latency</h3>
               <p className="text-[var(--text-secondary)]">
-                550km orbital altitude means sub-20ms latency.
-                Fast enough for real-time applications.
+                A 550km orbital altitude is designed to give low latency.
+                The sub-20ms figure is a design target, not a measurement.
               </p>
             </div>
           </div>
@@ -159,29 +158,28 @@ export default function Home() {
                 <span className="text-gradient-cyan">Mesh Network</span> in Space
               </h2>
               <p className="text-[var(--text-secondary)] mb-6">
-                Spectrum satellites form an interconnected mesh, relaying data across the
-                constellation. If one path is blocked, traffic automatically routes through
-                alternative satellites.
+                The design calls for satellites to form an interconnected mesh, relaying data across the
+                constellation and rerouting around a blocked path. This is not built.
               </p>
               <ul className="space-y-4">
                 <li className="flex items-start gap-3">
                   <span className="text-[var(--spectrum-cyan)] mt-1">&#10003;</span>
                   <span className="text-[var(--text-secondary)]">
-                    <strong className="text-[var(--text-primary)]">Inter-Satellite Links:</strong> Laser
+                    <strong className="text-[var(--text-primary)]">Inter-Satellite Links:</strong> Planned laser
                     connections between satellites for orbital data routing
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-[var(--spectrum-cyan)] mt-1">&#10003;</span>
                   <span className="text-[var(--text-secondary)]">
-                    <strong className="text-[var(--text-primary)]">Ground Stations:</strong> Distributed
+                    <strong className="text-[var(--text-primary)]">Ground Stations:</strong> Planned distributed
                     earth stations for terrestrial network integration
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-[var(--spectrum-cyan)] mt-1">&#10003;</span>
                   <span className="text-[var(--text-secondary)]">
-                    <strong className="text-[var(--text-primary)]">Omega Integration:</strong> Direct
+                    <strong className="text-[var(--text-primary)]">Omega Integration:</strong> Planned direct
                     satellite uplink from Omega Router devices
                   </span>
                 </li>
@@ -214,17 +212,16 @@ export default function Home() {
               Layer 6 of the <span className="text-gradient-cyan">Sovereign Stack</span>
             </h2>
             <p className="text-[var(--text-secondary)] max-w-2xl mx-auto">
-              Spectrum completes the stack, providing the final connectivity layer
-              that makes the entire ecosystem truly unstoppable.
+              Spectrum is planned to be the final connectivity layer of the stack.
             </p>
           </div>
 
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4 max-w-4xl mx-auto">
             {[
-              { layer: "L6", name: "Spectrum Galactic", desc: "LEO Satellites", active: true },
+              { layer: "L6", name: "Spectrum Galactic", desc: "Satellite Backhaul (planned)", active: true },
               { layer: "L5", name: "VIBE Token", desc: "Economics Layer", href: "https://vibetoken.xyz" },
               { layer: "L4", name: "Pythia AI", desc: "Intelligence Layer", href: "https://pythia-ai.xyz" },
-              { layer: "L3", name: "PCG Dashboard", desc: "User Interface", href: "https://powerclubglobal.com" },
+              { layer: "L3", name: "Powerclub Dashboard", desc: "User Interface", href: "https://powerclubglobal.com" },
               { layer: "L2", name: "Omega Hardware", desc: "Privacy Devices", href: "https://omegawireless.xyz" },
               { layer: "L1", name: "Alpha Protocol", desc: "Core Network", href: "https://alphaprotocol.network" },
             ].map((item) => (
@@ -258,16 +255,15 @@ export default function Home() {
       {/* CTA */}
       <section className="py-24 bg-[var(--space-surface)]">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <div className="inline-flex items-center gap-2 px-4 py-2 bg-[var(--signal-green)]/10 border border-[var(--signal-green)]/30 rounded-full text-[var(--signal-green)] text-sm mb-6">
-            <span className="status-online" />
-            Network Active
+          <div className="inline-flex items-center gap-2 px-4 py-2 bg-[var(--gold)]/10 border border-[var(--gold)]/30 rounded-full text-[var(--gold)] text-sm mb-6">
+            Early-stage plan
           </div>
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Connect to <span className="text-gradient-cyan">Spectrum</span>
+            Follow <span className="text-gradient-cyan">Spectrum</span>
           </h2>
           <p className="text-[var(--text-secondary)] text-lg mb-8">
-            Get unstoppable connectivity from space. Partner with us to bring
-            Spectrum coverage to your region or integrate with your infrastructure.
+            Spectrum Galactic is an early-stage plan. Contact us to follow progress
+            or discuss working together.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
@@ -276,7 +272,7 @@ export default function Home() {
               rel="noopener noreferrer"
               className="btn-primary"
             >
-              Become a Partner
+              Contact Us
             </a>
             <Link href="/technology" className="btn-secondary">
               Learn More

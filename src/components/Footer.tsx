@@ -28,7 +28,7 @@ const ecosystemProjects = [
   {
     id: "vibeland",
     name: "VIBELAND",
-    url: "https://vibeland.com",
+    url: "https://vibeland-web.vercel.app",
     color: "#3b82f6",
   },
   {
@@ -61,15 +61,14 @@ export default function Footer() {
               </div>
               <div>
                 <span className="text-xl font-bold text-gradient-cyan">SPECTRUM</span>
-                <span className="text-xs block text-[var(--text-muted)]">Global Connectivity</span>
+                <span className="text-xs block text-[var(--text-muted)]">Satellite Backhaul Plan</span>
               </div>
             </div>
             <p className="text-[var(--text-secondary)] text-sm mb-4">
-              LEO satellite connectivity extending the Sovereign Stack globally. Zero censorship, global coverage.
+              An early-stage plan for satellite backhaul for the Sovereign Stack. No satellites are in orbit yet.
             </p>
             <div className="flex items-center gap-2 text-sm">
-              <span className="w-2 h-2 rounded-full bg-[var(--signal-green)] animate-pulse" />
-              <span className="text-[var(--text-muted)]">Constellation Active</span>
+              <span className="text-[var(--text-muted)]">Early-stage plan</span>
             </div>
           </div>
 
@@ -84,12 +83,12 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/coverage" className="text-sm text-[var(--text-muted)] hover:text-[var(--spectrum-primary)] transition-colors">
-                  Coverage Map
+                  Planned Coverage
                 </Link>
               </li>
               <li>
                 <Link href="/network" className="text-sm text-[var(--text-muted)] hover:text-[var(--spectrum-primary)] transition-colors">
-                  Network Status
+                  Network Plan
                 </Link>
               </li>
               <li>
@@ -138,7 +137,7 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   className="text-sm text-[var(--text-muted)] hover:text-[var(--spectrum-primary)] transition-colors"
                 >
-                  PowerClub Global
+                  Powerclub Global
                 </a>
               </li>
               <li>

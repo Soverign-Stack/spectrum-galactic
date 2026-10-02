@@ -16,8 +16,8 @@ export default function Partners() {
             <span className="text-gradient-cyan">Partner</span> With Us
           </h1>
           <p className="text-xl text-[var(--text-secondary)]">
-            Join the Spectrum network as a regional partner, ground station operator,
-            or technology integrator.
+            Spectrum Galactic is an early-stage plan with no satellites yet. We are
+            interested in hearing from regional partners, ground station operators and integrators.
           </p>
         </div>
       </section>
@@ -28,7 +28,7 @@ export default function Partners() {
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold mb-4">Partnership Opportunities</h2>
             <p className="text-[var(--text-secondary)] max-w-2xl mx-auto">
-              Multiple ways to participate in the Spectrum network expansion.
+              Roles we expect to need. Terms are not defined yet.
             </p>
           </div>
 
@@ -41,25 +41,25 @@ export default function Partners() {
               </div>
               <h3 className="text-xl font-semibold text-[var(--spectrum-cyan)] mb-2">Regional Partner</h3>
               <p className="text-[var(--text-secondary)] mb-4">
-                Become the exclusive Spectrum partner for your region. Provide connectivity
-                services to local customers and earn revenue share.
+                A possible role: help plan Spectrum service in your region.
+                Terms have not been defined.
               </p>
               <ul className="space-y-2 text-sm text-[var(--text-muted)]">
                 <li className="flex items-center gap-2">
                   <span className="text-[var(--spectrum-cyan)]">&#10003;</span>
-                  Exclusive territory rights
+                  Regional knowledge
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="text-[var(--spectrum-cyan)]">&#10003;</span>
-                  Revenue sharing model
+                  Local market input
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="text-[var(--spectrum-cyan)]">&#10003;</span>
-                  Marketing support
+                  Early planning input
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="text-[var(--spectrum-cyan)]">&#10003;</span>
-                  Technical training
+                  Terms to be discussed
                 </li>
               </ul>
             </div>
@@ -72,25 +72,25 @@ export default function Partners() {
               </div>
               <h3 className="text-xl font-semibold text-[var(--spectrum-purple)] mb-2">Ground Station Host</h3>
               <p className="text-[var(--text-secondary)] mb-4">
-                Host a Spectrum ground station at your facility. Ideal for data centers,
-                telecom providers, and large enterprises.
+                A possible role: host a planned Spectrum ground station at your facility,
+                such as a data center or telecom site. Terms have not been defined.
               </p>
               <ul className="space-y-2 text-sm text-[var(--text-muted)]">
                 <li className="flex items-center gap-2">
                   <span className="text-[var(--spectrum-purple)]">&#10003;</span>
-                  Monthly hosting fees
+                  Site and facility details
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="text-[var(--spectrum-purple)]">&#10003;</span>
-                  Priority connectivity
+                  Network planning input
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="text-[var(--spectrum-purple)]">&#10003;</span>
-                  Direct peering
+                  Peering discussions
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="text-[var(--spectrum-purple)]">&#10003;</span>
-                  Equipment provided
+                  Terms to be discussed
                 </li>
               </ul>
             </div>
@@ -103,25 +103,25 @@ export default function Partners() {
               </div>
               <h3 className="text-xl font-semibold text-[var(--gold)] mb-2">Technology Integrator</h3>
               <p className="text-[var(--text-secondary)] mb-4">
-                Integrate Spectrum connectivity into your products or services.
-                SDKs and APIs available for custom solutions.
+                A possible role: integrate Spectrum connectivity into your products
+                once it exists. No SDK or API is available yet.
               </p>
               <ul className="space-y-2 text-sm text-[var(--text-muted)]">
                 <li className="flex items-center gap-2">
                   <span className="text-[var(--gold)]">&#10003;</span>
-                  API access
+                  Integration planning
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="text-[var(--gold)]">&#10003;</span>
-                  SDK & documentation
+                  Early design feedback
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="text-[var(--gold)]">&#10003;</span>
-                  Technical support
+                  Technical discussions
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="text-[var(--gold)]">&#10003;</span>
-                  Co-marketing opportunities
+                  Terms to be discussed
                 </li>
               </ul>
             </div>
@@ -138,7 +138,7 @@ export default function Partners() {
                 Part of the <span className="text-gradient-cyan">Sovereign Stack</span>
               </h2>
               <p className="text-[var(--text-secondary)] mb-6">
-                Spectrum partners gain access to the entire Sovereign Stack ecosystem.
+                Spectrum is planned to work with the wider Sovereign Stack ecosystem.
                 Integrate with Alpha Protocol, Omega hardware, Pythia AI, and VIBE token
                 for complete sovereignty solutions.
               </p>
@@ -146,22 +146,22 @@ export default function Partners() {
                 <li className="flex items-start gap-3">
                   <span className="text-[var(--gold)] mt-1">&#10003;</span>
                   <span className="text-[var(--text-secondary)]">
-                    <strong className="text-[var(--text-primary)]">Omega Integration:</strong> Sell
-                    Spectrum-enabled Omega devices in your region
+                    <strong className="text-[var(--text-primary)]">Omega Integration:</strong> Planned:
+                    Spectrum-enabled Omega devices
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-[var(--gold)] mt-1">&#10003;</span>
                   <span className="text-[var(--text-secondary)]">
-                    <strong className="text-[var(--text-primary)]">VIBE Payments:</strong> Accept
-                    VIBE token for services through integrated billing
+                    <strong className="text-[var(--text-primary)]">VIBE Payments:</strong> Under consideration:
+                    VIBE token for services
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-[var(--gold)] mt-1">&#10003;</span>
                   <span className="text-[var(--text-secondary)]">
-                    <strong className="text-[var(--text-primary)]">Pythia Access:</strong> Offer
-                    edge AI compute to your customers
+                    <strong className="text-[var(--text-primary)]">Pythia Access:</strong> Planned:
+                    edge AI compute through Pythia
                   </span>
                 </li>
               </ul>
@@ -171,7 +171,7 @@ export default function Partners() {
                 { layer: "L6", name: "Spectrum", color: "spectrum-cyan", active: true },
                 { layer: "L5", name: "VIBE", color: "gold" },
                 { layer: "L4", name: "Pythia", color: "spectrum-purple" },
-                { layer: "L3", name: "PCG", color: "spectrum-blue" },
+                { layer: "L3", name: "Powerclub", color: "spectrum-blue" },
                 { layer: "L2", name: "Omega", color: "spectrum-pink" },
                 { layer: "L1", name: "Alpha", color: "signal-green" },
               ].map((item) => (
@@ -206,7 +206,7 @@ export default function Partners() {
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold mb-4">Backed By</h2>
             <p className="text-[var(--text-secondary)] max-w-2xl mx-auto">
-              Spectrum Galactic is backed by OKB Ventures and part of the Sovereign Stack portfolio.
+              Spectrum Galactic is part of the Sovereign Stack.
             </p>
           </div>
 

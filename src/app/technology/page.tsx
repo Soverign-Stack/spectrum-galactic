@@ -16,8 +16,8 @@ export default function Technology() {
             <span className="text-gradient-cyan">Technology</span>
           </h1>
           <p className="text-xl text-[var(--text-secondary)]">
-            Advanced LEO satellite infrastructure designed for sovereignty,
-            privacy, and unstoppable connectivity.
+            The planned design of Spectrum Galactic satellite backhaul. None of this
+            is built or in orbit yet. Figures are design targets.
           </p>
         </div>
       </section>
@@ -31,9 +31,9 @@ export default function Technology() {
                 <span className="text-gradient-cyan">Spectrum Satellites</span>
               </h2>
               <p className="text-[var(--text-secondary)] mb-6">
-                Each Spectrum satellite is a compact, high-performance communications node
-                designed for LEO operation. With inter-satellite laser links, they form
-                a self-routing mesh network in orbit.
+                Each planned Spectrum satellite would be a compact communications node
+                for LEO operation. With inter-satellite laser links, they would form
+                a self-routing mesh network in orbit. No satellite has been built.
               </p>
               <div className="grid grid-cols-2 gap-4">
                 <div className="bg-[var(--space-surface)] rounded-lg p-4 border border-[var(--space-border)]">
@@ -71,7 +71,7 @@ export default function Technology() {
                   <div className="absolute bottom-4 left-1/2 -translate-x-1/2 w-12 h-12 border-4 border-[var(--spectrum-cyan)]/50 rounded-full" />
                 </div>
                 <div className="mt-4 text-center text-sm text-[var(--text-muted)]">
-                  Spectrum LEO Satellite - Gen 1
+                  Concept illustration of a planned satellite
                 </div>
               </div>
             </div>
@@ -87,8 +87,8 @@ export default function Technology() {
               <span className="text-gradient-cyan">Inter-Satellite Links</span>
             </h2>
             <p className="text-[var(--text-secondary)] max-w-2xl mx-auto">
-              Optical laser communication between satellites enables data routing
-              entirely in orbit, bypassing terrestrial networks.
+              Planned optical laser communication between satellites would allow data routing
+              in orbit, reducing use of terrestrial networks.
             </p>
           </div>
 
@@ -96,33 +96,33 @@ export default function Technology() {
             <div className="card border-t-4 border-t-[var(--spectrum-cyan)]">
               <h3 className="text-xl font-semibold text-[var(--spectrum-cyan)] mb-4">Laser Links</h3>
               <p className="text-[var(--text-secondary)] mb-4">
-                Free-space optical communication at 10 Gbps per link.
-                Each satellite maintains 4 active inter-satellite connections.
+                Design target: free-space optical communication at 10 Gbps per link,
+                with 4 inter-satellite connections per satellite.
               </p>
               <div className="text-sm text-[var(--text-muted)]">
-                Range: 5,000+ km
+                Design target range: 5,000+ km
               </div>
             </div>
 
             <div className="card border-t-4 border-t-[var(--spectrum-purple)]">
               <h3 className="text-xl font-semibold text-[var(--spectrum-purple)] mb-4">Mesh Routing</h3>
               <p className="text-[var(--text-secondary)] mb-4">
-                Distributed routing protocol automatically finds optimal paths.
-                Traffic reroutes instantly if a satellite is unavailable.
+                A distributed routing protocol is planned to find paths and
+                reroute traffic if a satellite is unavailable.
               </p>
               <div className="text-sm text-[var(--text-muted)]">
-                Failover: &lt;100ms
+                Design target failover: &lt;100ms
               </div>
             </div>
 
             <div className="card border-t-4 border-t-[var(--spectrum-pink)]">
               <h3 className="text-xl font-semibold text-[var(--spectrum-pink)] mb-4">Encryption</h3>
               <p className="text-[var(--text-secondary)] mb-4">
-                End-to-end encryption on all inter-satellite links.
-                Quantum-resistant key exchange protocols.
+                Planned end-to-end encryption on inter-satellite links,
+                with quantum-resistant key exchange under consideration.
               </p>
               <div className="text-sm text-[var(--text-muted)]">
-                Standard: AES-256-GCM
+                Planned standard: AES-256-GCM
               </div>
             </div>
           </div>
@@ -135,8 +135,8 @@ export default function Technology() {
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold mb-4">Ground Infrastructure</h2>
             <p className="text-[var(--text-secondary)] max-w-2xl mx-auto">
-              Distributed ground stations provide terrestrial network integration
-              while maintaining censorship resistance.
+              Planned ground stations would provide terrestrial network integration.
+              No ground station has been built.
             </p>
           </div>
 
@@ -148,21 +148,21 @@ export default function Technology() {
                   <span className="text-[var(--spectrum-cyan)]">&#9679;</span>
                   <div>
                     <div className="font-medium text-[var(--text-primary)]">High-Throughput Antennas</div>
-                    <div className="text-sm text-[var(--text-muted)]">Ka-band phased array with 100+ Gbps capacity</div>
+                    <div className="text-sm text-[var(--text-muted)]">Planned: Ka-band phased array</div>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-[var(--spectrum-cyan)]">&#9679;</span>
                   <div>
                     <div className="font-medium text-[var(--text-primary)]">Geographic Distribution</div>
-                    <div className="text-sm text-[var(--text-muted)]">Stations in 12+ countries for redundancy</div>
+                    <div className="text-sm text-[var(--text-muted)]">Planned: stations in several countries for redundancy</div>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-[var(--spectrum-cyan)]">&#9679;</span>
                   <div>
                     <div className="font-medium text-[var(--text-primary)]">Peering Points</div>
-                    <div className="text-sm text-[var(--text-muted)]">Direct IX connections for low-latency egress</div>
+                    <div className="text-sm text-[var(--text-muted)]">Planned: direct IX connections for low-latency egress</div>
                   </div>
                 </li>
               </ul>
@@ -175,21 +175,21 @@ export default function Technology() {
                   <span className="text-[var(--gold)]">&#9679;</span>
                   <div>
                     <div className="font-medium text-[var(--text-primary)]">Direct Uplink</div>
-                    <div className="text-sm text-[var(--text-muted)]">Omega Routers connect directly to satellites</div>
+                    <div className="text-sm text-[var(--text-muted)]">Planned: Omega Routers connect directly to satellites</div>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-[var(--gold)]">&#9679;</span>
                   <div>
                     <div className="font-medium text-[var(--text-primary)]">Hybrid Mode</div>
-                    <div className="text-sm text-[var(--text-muted)]">Seamless failover between terrestrial and satellite</div>
+                    <div className="text-sm text-[var(--text-muted)]">Planned: failover between terrestrial and satellite links</div>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-[var(--gold)]">&#9679;</span>
                   <div>
                     <div className="font-medium text-[var(--text-primary)]">Mesh Extension</div>
-                    <div className="text-sm text-[var(--text-muted)]">Omega devices extend satellite coverage locally</div>
+                    <div className="text-sm text-[var(--text-muted)]">Planned: Omega devices extend satellite coverage locally</div>
                   </div>
                 </li>
               </ul>
@@ -201,26 +201,26 @@ export default function Technology() {
       {/* Technical Specs Table */}
       <section className="py-24 bg-[var(--space-surface)]">
         <div className="max-w-4xl mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-8 text-center">Technical Specifications</h2>
+          <h2 className="text-3xl font-bold mb-8 text-center">Design Targets</h2>
           <div className="bg-[var(--space-black)] border border-[var(--space-border)] rounded-2xl overflow-hidden">
             <table className="w-full">
               <thead>
                 <tr className="border-b border-[var(--space-border)]">
-                  <th className="text-left p-4 text-[var(--spectrum-cyan)]">Parameter</th>
+                  <th className="text-left p-4 text-[var(--spectrum-cyan)]">Parameter (design target)</th>
                   <th className="text-left p-4 text-[var(--spectrum-cyan)]">Value</th>
                 </tr>
               </thead>
               <tbody>
                 {[
-                  ["Constellation Size", "24 satellites (Phase 1)"],
+                  ["Constellation Size", "24 satellites (design target)"],
                   ["Orbital Altitude", "550 km LEO"],
                   ["Orbital Inclination", "53 degrees"],
-                  ["User Latency", "< 20ms (typical)"],
+                  ["User Latency", "< 20ms"],
                   ["Downlink Capacity", "Up to 1 Gbps per satellite"],
                   ["Inter-Satellite Link", "10 Gbps optical"],
                   ["Frequency Bands", "Ka-band (user), V-band (gateway)"],
                   ["Encryption", "AES-256-GCM, quantum-resistant KEM"],
-                  ["Ground Stations", "12+ globally distributed"],
+                  ["Ground Stations", "Not yet planned in detail"],
                   ["Design Life", "5 years per satellite"],
                 ].map(([param, value], i) => (
                   <tr key={i} className="border-b border-[var(--space-border)]/50 last:border-0">
@@ -238,10 +238,10 @@ export default function Technology() {
       <section className="py-24">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-6">
-            Ready to <span className="text-gradient-cyan">Connect</span>?
+            Interested in the <span className="text-gradient-cyan">Plan</span>?
           </h2>
           <p className="text-[var(--text-secondary)] text-lg mb-8">
-            Partner with Spectrum to bring unstoppable connectivity to your region.
+            Spectrum Galactic is an early-stage plan. Contact us to follow progress or discuss working together.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
@@ -253,7 +253,7 @@ export default function Technology() {
               Contact Us
             </a>
             <Link href="/coverage" className="btn-secondary">
-              View Coverage
+              View Planned Coverage
             </Link>
           </div>
         </div>

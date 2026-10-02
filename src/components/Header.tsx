@@ -6,8 +6,8 @@ import { useState } from "react";
 const navItems = [
   { label: "Home", href: "/" },
   { label: "Technology", href: "/technology" },
-  { label: "Coverage", href: "/coverage" },
-  { label: "Network", href: "/network" },
+  { label: "Planned Coverage", href: "/coverage" },
+  { label: "Network Plan", href: "/network" },
   { label: "Partners", href: "/partners" },
 ];
 
@@ -40,7 +40,7 @@ const ecosystemProjects = [
     id: "vibe",
     name: "VIBE Token",
     shortName: "VIBE",
-    description: "Ecosystem Rewards - Value for Contributors",
+    description: "Ecosystem Token",
     url: "https://vibetoken.xyz",
     color: "#22c55e",
   },
@@ -49,14 +49,14 @@ const ecosystemProjects = [
     name: "VIBELAND",
     shortName: "VIBELAND",
     description: "The Sovereign Metaverse - Immersive 3D Worlds",
-    url: "https://vibeland.com",
+    url: "https://vibeland-web.vercel.app",
     color: "#3b82f6",
   },
   {
     id: "spectrum",
     name: "Spectrum Galactic",
     shortName: "Spectrum",
-    description: "Global Reach - Satellite Coverage Extension",
+    description: "Planned satellite backhaul",
     url: "#",
     color: "#8b5cf6",
   },
@@ -64,7 +64,7 @@ const ecosystemProjects = [
     id: "pythia",
     name: "Pythia AI",
     shortName: "Pythia",
-    description: "Emergent AI - Powered by the Ecosystem",
+    description: "Planned AI layer for the ecosystem",
     url: "https://pythia-ai.xyz",
     color: "#6366f1",
   },
@@ -218,8 +218,7 @@ export default function Header() {
           {/* Status & CTA */}
           <div className="flex items-center gap-4">
             <div className="flex items-center gap-2">
-              <span className="status-online" />
-              <span className="text-sm text-[var(--signal-green)]">Network Active</span>
+              <span className="text-sm text-[var(--gold)]">Early-stage plan</span>
             </div>
             <a
               href="https://okb-ventures.vercel.app/contact"
@@ -227,7 +226,7 @@ export default function Header() {
               rel="noopener noreferrer"
               className="btn-primary text-sm"
             >
-              Get Connected
+              Contact Us
             </a>
           </div>
         </div>
@@ -353,7 +352,7 @@ export default function Header() {
               onClick={() => setMobileMenuOpen(false)}
               className="block btn-primary text-center mt-4"
             >
-              Get Connected
+              Contact Us
             </a>
           </nav>
         </div>

@@ -16,11 +16,11 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Spectrum Galactic - LEO Satellite Connectivity",
+    default: "Spectrum Galactic - Satellite Backhaul Plan",
     template: "%s | Spectrum Galactic",
   },
-  description: "Low Earth Orbit satellite connectivity for the Sovereign Stack. Global coverage, zero censorship, unstoppable connectivity.",
-  keywords: ["satellite", "LEO", "connectivity", "sovereign stack", "decentralized", "global coverage"],
+  description: "An early-stage plan for satellite backhaul for the Sovereign Stack. No satellites are in orbit yet.",
+  keywords: ["satellite", "LEO", "connectivity", "sovereign stack", "decentralized", "satellite backhaul"],
 };
 
 export default function RootLayout({
